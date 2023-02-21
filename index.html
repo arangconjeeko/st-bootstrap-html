@@ -10,164 +10,332 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
 </head>
 
 <body>
 
+  <!-- Carousel -->
+  <div class="class h-auto w-auto mx-auto" style="--bs-aspect-ratio: 50%;">
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-<!-- Carousel -->
-<div class="class h-auto w-auto mx-auto" style="--bs-aspect-ratio: 50%;">
-  <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="1a.jpg" alt="Front-End" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="2a.jpg" alt="Back-End" class="d-block" style="width:100%">
+        </div>
+        <div class="carousel-item">
+          <img src="3a.jpg" alt="API" class="d-block" style="width:100%">
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+
+
+
+    <div class="container my-5">
+      <h1>Jeeko Arangcon</h1>
+      <a href="mailto:https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlJVzdXdbWsxXZlxtWldccDLldQQrHxpLGvpvxWjLcWhccXVjVGwJzglBQbKLvsNPfdCJq"
+        type="button" class="btn btn-outline-danger">
+        arangconjeeko@gmail.com
+      </a>
+      <p class="lead">
+        A Full-Stack Web Developer with expertise in Front-end and Back-end Frameworks, API's, Database, UI and UX.
+      </p>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+
+          <h3 class="mb-3 my-2 py-2">Educational Background</h3>
+          <div class="card mb-3">
+            <div class="card-body">
+
+              <div class="mx-3">
+                <h4>International State College of the Phillipines</h4>
+                <div><strong>2021-2022</strong></div>
+                —Bachelor's Degree in Aray ko! ginanern ba naman.
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Best in Recess</li>
+                <li class="list-group-item">Special Award in Cutting Classes</li>
+                <li class="list-group-item">Outstanding in Shat Puno Competion, GG na!</li>
+              </ul>
+            </div>
+
+            <div class="card-body">
+              <div class="mx-3">
+                <h4>Stacktrek Coding Bootcamp</h4>
+                <div><strong>2022-Current</strong></div>
+                —Front-end and Back-end Developer using HTML-CSS-JS, BootStrap, React.js Node.js, PostgreSQL.
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Knowledge in Front-End and Back-End Frameworks</li>
+                <li class="list-group-item">Expertise in API's</li>
+                <li class="list-group-item">Developed the Hype GX App Beta</li>
+              </ul>
+            </div>
+          </div>
+
+          <h3 class="mb-3 my-2 py-2">Work Experience</h3>
+          <div class="card">
+            <div class="card-body">
+
+              <div class="mx-3">
+                <h4>Adonis Bar Jupiter Branch</h4>
+                <div><strong>2027-3000</strong></div>
+                —Culinary expertise in Holographic Meatloaf making.
+              </div>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Developing the Hype GX App</li>
+                <li class="list-group-item">Developing the Hype GX App</li>
+                <li class="list-group-item">Developing the Hype GX App</li>
+              </ul>
+            </div>
+          </div>
+          <h3 class="mb-3 my-2 py-2">Skills</h3>
+          <div class="card mb-3">
+            <div class="card-body">
+
+              <div class="mx-3">
+                <h4>PROGRAMMING LANGUAGES</h4>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill">PYTHON</li>
+                  <li class="list-group-item flex-fill">HTML</li>
+                  <li class="list-group-item flex-fill">CSS</li>
+                  <li class="list-group-item flex-fill">JAVASCRIPT</li>
+                  <li class="list-group-item flex-fill">SQL</li>
+                </ul>
+              </div>
+
+              <div class="mx-3">
+                <h4>FRONT-END FRAMEWORKS</h4>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill">BOOTSTRAP</li>
+                  <li class="list-group-item flex-fill">TAILWIND CSS</li>
+                </ul>
+              </div>
+
+              <div class="mx-3">
+                <h4>BACK-END FRAMEWORKS</h4>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill">EXPRESS.JS</li>
+                  <li class="list-group-item flex-fill">REACT.JS</li>
+                  <li class="list-group-item flex-fill">NODE.JS</li>
+                </ul>
+              </div>
+
+
+              <div class="mx-3">
+                <h4>TECH STACK TOOLS</h4>
+                <ul class="list-group list-group-horizontal">
+                  <li class="list-group-item flex-fill">GITHUB</li>
+                  <li class="list-group-item flex-fill">VERCEL</li>
+                  <li class="list-group-item flex-fill">POSTGRESQL</li>
+                  <li class="list-group-item flex-fill">WEB SECURITY</li>
+                </ul>
+              </div>
+
+            </div>
+          </div>
+
+
+
+<!-- My Projects Section -->
+
+          <div class="col">
+            <h3 class="row my-2 py-2">MY PROJECTS</h3>
+
+
+            <div class="list-group-item flex-fill">
+              <div class="row list-group-item flex-fill">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                  <div class="card m-b-3">
+                    <img src="1.png" alt="Med Start-Up" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hype GX0</h5>
+                      <p class="card-text"> -building yan</p>
+                      <div class="btn btn-primary">View Website</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
   
-    <!-- Indicators/dots -->
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-    </div>
-    
-    <!-- The slideshow/carousel -->
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="1a.jpg" alt="Front-End" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="2a.jpg" alt="Back-End" class="d-block" style="width:100%">
-      </div>
-      <div class="carousel-item">
-        <img src="3a.jpg" alt="API" class="d-block" style="width:100%">
-      </div>
-    </div>
-    
-    <!-- Left and right controls/icons -->
-    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon"></span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-      <span class="carousel-control-next-icon"></span>
-    </button>
-  </div>  
+              <div class="row list-group-item flex-fill">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                  <div class="card m-b-3">
+                    <img src="3.png" alt="Med Start-Up" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hype GX1</h5>
+                      <p class="card-text"> -computer desktop yan</p>
+                      <div class="btn btn-primary">View Website</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="row list-group-item flex-fill">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                  <div class="card m-b-3">
+                    <img src="1.png" alt="Med Start-Up" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hype GX2</h5>
+                      <p class="card-text"> -computer desktop yan</p>
+                      <div class="btn btn-primary">View Website</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+  
+              <div class="row list-group-item flex-fill">
+                <div class="col-sm-6 col-lg-4 mb-4">
+                  <div class="card m-b-3">
+                    <img src="3.png" alt="Med Start-Up" class="card-img-top">
+                    <div class="card-body">
+                      <h5 class="card-title">Hype GX3</h5>
+                      <p class="card-text"> -computer desktop yan</p>
+                      <div class="btn btn-primary">View Website</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-
-
-  <div class="container my-5">
-    <h1>Jeeko Arangcon</h1>
-    <a href="mailto:https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlJVzdXdbWsxXZlxtWldccDLldQQrHxpLGvpvxWjLcWhccXVjVGwJzglBQbKLvsNPfdCJq" type="button" class="btn btn-outline-danger">
-      arangconjeeko@gmail.com
-    </a>
-    <p class="lead">
-      A Full-Stack Web Developer with expertise in Front-end and Back-end Frameworks, API's, Database, UI and UX.
-    </p>
-  </div>
-
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col">
-        <h3 class="mb-3">Educational Background</h3>
-        <div class="card mb-3">
-          <div class="card-body">
-
-            <div class="mx-3"><h4>International State College of the Phillipines</h4>
-              <div><strong>2021-2022</strong></div>
-              —Bachelor's Degree in Aray ko! ginanern ba naman.</div>
             
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Best in Recess</li>
-              <li class="list-group-item">Special Award in Cutting Classes</li>
-              <li class="list-group-item">Outstanding in Shat Puno Competion, GG na!</li>
-            </ul>
-          </div>
 
-          <div class="card-body">
-            <div class="mx-3"><h4>Stacktrek Coding Bootcamp</h4>
-              <div><strong>2022-Current</strong></div>
-              —Front-end and Back-end Developer using HTML-CSS-JS, BootStrap, React.js Node.js, PostgreSQL.</div>
-            
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Knowledge in Front-End and Back-End Frameworks</li>
-              <li class="list-group-item">Expertise in API's</li>
-              <li class="list-group-item">Developed the Hype GX App Beta</li>
-            </ul>
-    
-          </div>
-        </div>
-        <h3 class="mb-3">Work Experience</h3>
-        <div class="card">
-          <div class="card-body">
-            <div class="mx-3"><h4>Adonis Bar Jupiter Branch</h4>
-              <div><strong>2027-3000</strong></div>
-              —Culinary expertise in Holographic Meatloaf making.</div>
-            
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">Developing the Hype GX App</li>
-              <li class="list-group-item">Developing the Hype GX App</li>
-              <li class="list-group-item">Developing the Hype GX App</li>
-            </ul>
-      </div>
-    </div>
-
-    <div class="col">
-      <h3 class="mb-3">Skills</h3>
-      <div class="card mb-3">
-        <div class="card-body">
-          <div class="mx-3"><h4>FRONT-END FRAMEWORKS</h4>
-            <ul class="list-group list-group-flush">
-              <li>FE-BE API DB</li>
-              <li>FE-BE API DB</li>
-              <li>FE-BE API DB</li>
-              <li>FE-BE API DB</li>
-              <li>FE-BE API DB</li>
-              <li>FE-BE API DB</li>
-            </ul>
-          </div>
-      </div>
-    </div>
-
-    <div class="col">
-      <h3 class="row">MY PROJECTS</h3>
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card m-b-3">
-            <img src="1.png" alt="Med Start-Up" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Hype GX</h5>
-              <p class="card-text"> -building yan</p>
-              <div class="btn btn-primary">View Website</div>
-            </div>
           </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-lg-3">
-          <div class="card m-b-3">
-            <img src="3.png" alt="Med Start-Up" class="card-img-top">
-            <div class="card-body">
-              <h5 class="card-title">Hype GX</h5>
-              <p class="card-text"> -computer desktop yan</p>
-              <div class="btn btn-primary">View Website</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-    </div>
-
-
-
-
-
-
-
-
-  </div>
 
 </body>
+
 </html>
 
-     
 
+
+
+
+
+
+<!--  Pricing Section -->
+<section id="pricing" class="pricing">
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>Pricing</h2>
+      <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit alias</p>
+    </div>
+
+    <div class="row">
+
+      <div class="col-lg-3 col-md-6">
+        <div class="box">
+          <h3>Free</h3>
+          <h4><sup>$</sup>0<span> / month</span></h4>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li class="na">Pharetra massa</li>
+            <li class="na">Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+        <div class="box">
+          <h3>Business</h3>
+          <h4><sup>$</sup>19<span> / month</span></h4>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li class="na">Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+        <div class="box">
+          <h3>Developer</h3>
+          <h4><sup>$</sup>29<span> / month</span></h4>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li>Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+        <div class="box">
+          <span class="advanced">Advanced</span>
+          <h3>Ultimate</h3>
+          <h4><sup>$</sup>49<span> / month</span></h4>
+          <ul>
+            <li>Aida dere</li>
+            <li>Nec feugiat nisl</li>
+            <li>Nulla at volutpat dola</li>
+            <li>Pharetra massa</li>
+            <li>Massa ultricies mi</li>
+          </ul>
+          <div class="btn-wrap">
+            <a href="#" class="btn-buy">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
 
 
@@ -176,26 +344,26 @@
 <div class="header-section">
   <header class="page-header font-small bg-info fixed-top">
     <div class="header-nav text-center py-1 text-light">
-      
-    <nav>
-      <ul class="nav nav-pills">
-        <li class="nav-item ">
-          <a href="#" class="nav-link active bg-info">JeekoArangcon.io</a>
-        </li>
-        <li class="nav-item ">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">About Me</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a href="#" class="nav-link">Contact Me</a>
-        </li>
-      </ul>
-    </nav>
+
+      <nav>
+        <ul class="nav nav-pills">
+          <li class="nav-item ">
+            <a href="#" class="nav-link active bg-info">JeekoArangcon.io</a>
+          </li>
+          <li class="nav-item ">
+            <a href="#" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link">Contact Me</a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </header>
 </div>
@@ -211,3 +379,6 @@
   </footer>
 </div>
 
+
+
+<!-- -- ---- Testing/Re-engineering Phase ---- -- -->
